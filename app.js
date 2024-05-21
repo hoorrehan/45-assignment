@@ -1,16 +1,7 @@
 "use strict";
-//Name Cases: Store a personâ€™s name in a variable, and then print that personâ€™s name in lowercase, uppercase, and titlecase.
-let personName = " ";
-personName = prompt("whats your name?") || " ";
-let upperCase = personName.toUpperCase();
-let lowerCase = personName.toLowerCase();
-let titleCase = personName.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(" ");
-if (personName !== null && personName !== " ") {
-    alert(`Hello ${personName} here's your name in
-    upperCase ${upperCase}
-    lowerCase ${lowerCase}
-    titleCase ${titleCase}`);
-}
-else {
-    alert("fill your name")
-}
+// Adding Comments: Choose two of the programs youâ€™ve written, and add at least one comment to each. If you donâ€™t have anything specific to write
+// because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence
+// describing what the program does.
+// This program is written by Hoor.
+// today is 16th april 2024
+console.log("Hello World");
